@@ -63,7 +63,7 @@ Class Weblio
 
   def play_mp3
     begin
-      if retrieve_mp3=~/https?:\/\/[\w/:%#\$&\?\(\)~\.=\+\-]+/
+      if retrieve_mp3=~/https?:\/\/[\w\/:%#\$&\?\(\)~\.=\+\-]+/
         `ffplay -nodisp -loglevel quiet -autoexit -t '231' #{data}`
       else
         return '*nope: いや,いいえ*(in mp3)'
