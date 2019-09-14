@@ -1,4 +1,6 @@
 #to make available: CSV wordlist, sentence - > noun, level average by each kind
+#発音記号, 日本語読み, 品詞分類, {:noun=>[[(日本語意味),(例文)]],:adverb=>...}
+#レベル:大学入試の属性を増やす
 require "uri"
 require "open-uri"
 
